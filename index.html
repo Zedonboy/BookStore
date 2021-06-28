@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="./dist/book.css" rel="stylesheet"/>
+</head>
+<body class="min-h-screen bg-pink-bg flex justify-center items-center px-24">
+    <div class="block md:hidden">
+        View with Desktop
+    </div>
+    <section class="hidden shadow-lg w-full px-24 h-[90vh] md:flex flex-col justify-between">
+        <header>
+            <nav class="flex justify-between">
+                <ul class="flex ml-4 space-x-8 font-semibold">
+                    <li>Logo</li>
+                    <li>Genre</li>
+                    <li>Best Sellers</li>
+                    <li>New Releases</li>
+                    <li>Explore</li>
+                </ul>
+                <a>Sign In</a>
+            </nav>
+        </header>
+        <section class="flex h-1/3 flex-col justify-center items-center">
+            <h1 class="text-4xl font-bold text-grey">Endless Knowledge</h1>
+            <p class="text-grey text-sm mt-4">For all book readers and listeners, comfort</p>
+            <button class="bg-grey mt-6 px-6 shadow-lg py-3 rounded text-white text-sm space-x-2 flex items-center">
+                <p>Start Reading</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+            </button>
+            <p class="text-xs text-grey mt-4">Only $8.99/month after free 30-day trial. Cancel anytime</p>
+        </section>
+        <section class="h-1/3 flex mb-8 rounded-lg bg-grey">
+            <div class="w-2/5 py-24 pl-10 pr-8 flex justify-center items-center">
+                <h1 class="text-white border-r border-white font-bold text-2xl">The Best-selling Books of 2021</h1>
+            </div>
+            <div class="w-3/5 relative flex items-center">
+                <div class="absolute rounded-lg flex justify-end items-center pr-8 right-0 left-0 bottom-0 bg-gradient-to-r from-transparent to-gray-900 h-full">
+                    <div class="flex flex-col items-center">
+                        <button class="rounded-full w-8 h-8 flex bg-white justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                              </svg>
+                        </button>
+                        <p class="text-xs mt-1 text-center font-bold text-white">View all</p>
+                    </div>
+                </div>
+                <div class="flex space-x-8 overflow-hidden w-full pr-10">
+                    <div class="w-1/5 flex flex-col flex-shrink-0">
+                        <div class="h-36 bg-white rounded"></div>
+                        <p class="text-white text-center font-bold text-sm">The Stranger</p>
+                        <p class="text-white text-center font-light text-xs">Adams Conan</p>
+                    </div>
+                    <div class="w-1/5 flex flex-col flex-shrink-0">
+                        <div class="h-36 bg-white rounded"></div>
+                        <p class="text-white text-center font-bold text-sm">The Stranger</p>
+                        <p class="text-white text-center font-light text-xs">Adams Conan</p>
+                    </div>
+                    <div class="w-1/5 flex flex-col flex-shrink-0">
+                        <div class="h-36 bg-white rounded"></div>
+                        <p class="text-white text-center font-bold text-sm">The Stranger</p>
+                        <p class="text-white text-center font-light text-xs">Adams Conan</p>
+                    </div>
+                    <div class="w-1/5 flex flex-col flex-shrink-0">
+                        <div class="h-36 bg-white rounded"></div>
+                        <p class="text-white text-center font-bold text-sm">The Stranger</p>
+                        <p class="text-white text-center font-light text-xs">Adams Conan</p>
+                    </div>
+                    <div class="w-1/5 flex flex-col flex-shrink-0">
+                        <div class="h-36 bg-white rounded"></div>
+                        <p class="text-white text-center font-bold text-sm">The Stranger</p>
+                        <p class="text-white text-center font-light text-xs">Adams Conan</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+      
+    </section>
+</body>
+</html>
